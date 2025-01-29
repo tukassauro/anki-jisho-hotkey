@@ -22,7 +22,6 @@ Before using this script, make sure you have:
     pyperclip
    
     keyboard
-   
 
 
 
