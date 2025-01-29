@@ -67,9 +67,10 @@ Back Field: "Back"
 
 If you're using:
 
-Different field names (e.g., "Question"/"Answer" or localized names)
-A different note type name (e.g., "Basic-reversed" or localized names)
-Custom fields
+- Different field names (e.g., "Question"/"Answer" or localized names)
+- A different note type name (e.g., "Basic-reversed" or localized names)
+- Custom fields
+
 Simply modify the corresponding values in the script to match your Anki setup.
 
 ## Usage:
