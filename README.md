@@ -54,12 +54,17 @@ To modify the deck name or note type configuration, edit these lines in the scri
 
 ```
 
-Note Type Configuration:
+
+ ## Note Type Configuration:
+
 The script uses Anki's default note type and field names:
 
 Note Type: "Basic"
+
 Front Field: "Front"
+
 Back Field: "Back"
+
 If you're using:
 
 Different field names (e.g., "Question"/"Answer" or localized names)
