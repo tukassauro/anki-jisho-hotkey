@@ -17,9 +17,9 @@ Before using this script, make sure you have:
 3. Python 3.6 or higher
 4. The following Python packages:
 
-requests
-pyperclip
-keyboard
+    requests
+    pyperclip
+    keyboard
 
 
 
