@@ -1,7 +1,7 @@
 # anki-jisho-hotkey
 
 A Python script that allows you to quickly add Japanese vocabulary to Anki using a hotkey. When you copy a Japanese word and press Ctrl+Shift+A, the script automatically fetches the word's reading and meaning from Jisho.org and creates a new Anki card.
-Features
+Features:
 
 Quick card creation with a simple hotkey (Ctrl+Shift+A)
 Automatic fetching of readings and meanings from Jisho.org
