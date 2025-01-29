@@ -18,7 +18,9 @@ Before using this script, make sure you have:
 4. The following Python packages:
 
     requests
+   
     pyperclip
+   
     keyboard
 
 
