@@ -26,7 +26,7 @@ keyboard
 Installation
 
 Clone this repository:
-bashCopygit clone https://github.com/YourUsername/anki-jisho-hotkey.git
+git clone https://github.com/YourUsername/anki-jisho-hotkey.git
 cd anki-jisho-hotkey
 
 Install required Python packages:
