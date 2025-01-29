@@ -30,7 +30,8 @@ bashCopygit clone https://github.com/YourUsername/anki-jisho-hotkey.git
 cd anki-jisho-hotkey
 
 Install required Python packages:
-bashCopypip install requests pyperclip keyboard
+
+pip install requests pyperclip keyboard
 
 
 Configuration
@@ -41,12 +42,15 @@ You have a deck named "Japanese" (or modify the deck_name parameter in the scrip
 You have a note type that matches your configuration (default is "Basic" with "Front" and "Back" fields)
 
 To modify the deck name or note type configuration, edit these lines in the script:
-pythonCopy"deckName": "Japanese",  # Change to your deck name
+
+"deckName": "Japanese",  # Change to your deck name
 "modelName": "Basic",    # Change to your note type name
 "fields": {
     "Front": f"{word} [{reading}]",     # Change to your front field name
     "Back": f"<div>Meaning: {meaning}</div>..."  # Change to your back field name
 }
+
+
 Note Type Configuration
 The script uses Anki's default note type and field names:
 
@@ -64,7 +68,7 @@ Simply modify the corresponding values in the script to match your Anki setup.
 Usage
 
 Run the script:
-bashCopypython add_to_anki.py
+python add_to_anki.py
 
 Copy any Japanese word you want to add to Anki
 Press Ctrl+Shift+A
