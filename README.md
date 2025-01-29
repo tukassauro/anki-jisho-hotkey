@@ -52,7 +52,8 @@ To modify the deck name or note type configuration, edit these lines in the scri
     "Back": f"<div>Meaning: {meaning}</div>..."  # Change to your back field name
 }
 
-Note Type Configuration
+Note Type Configuration:
+
 The script uses Anki's default note type and field names:
 
 Note Type: "Basic"
@@ -61,11 +62,13 @@ Back Field: "Back"
 
 If you're using:
 
-Different field names (e.g., "Question"/"Answer" or localized names)
-A different note type name (e.g., "Basic-reversed" or localized names)
-Custom fields
+
+- Different field names (e.g., "Question"/"Answer" or localized names)
+- A different note type name (e.g., "Basic-reversed" or localized names)
+- Custom fields
 
 Simply modify the corresponding values in the script to match your Anki setup.
+
 
 Usage
 
