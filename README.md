@@ -12,10 +12,10 @@ Automatic tagging of added cards
 Prerequisites
 Before using this script, make sure you have:
 
-Anki installed
-AnkiConnect add-on installed in Anki
-Python 3.6 or higher
-The following Python packages:
+1. Anki installed
+2. AnkiConnect add-on installed in Anki
+3. Python 3.6 or higher
+4. The following Python packages:
 
 requests
 pyperclip
@@ -26,6 +26,7 @@ keyboard
 Installation
 
 Clone this repository:
+
 git clone https://github.com/YourUsername/anki-jisho-hotkey.git
 cd anki-jisho-hotkey
 
@@ -33,13 +34,12 @@ Install required Python packages:
 
 pip install requests pyperclip keyboard
 
-
 Configuration
 Before running the script, make sure:
 
-Your Anki is running
-You have a deck named "Japanese" (or modify the deck_name parameter in the script)
-You have a note type that matches your configuration (default is "Basic" with "Front" and "Back" fields)
+1.Your Anki is running
+2.You have a deck named "Japanese" (or modify the deck_name parameter in the script)
+3.You have a note type that matches your configuration (default is "Basic" with "Front" and "Back" fields)
 
 To modify the deck name or note type configuration, edit these lines in the script:
 
@@ -49,7 +49,6 @@ To modify the deck name or note type configuration, edit these lines in the scri
     "Front": f"{word} [{reading}]",     # Change to your front field name
     "Back": f"<div>Meaning: {meaning}</div>..."  # Change to your back field name
 }
-
 
 Note Type Configuration
 The script uses Anki's default note type and field names:
@@ -65,20 +64,19 @@ A different note type name (e.g., "Basic-reversed" or localized names)
 Custom fields
 
 Simply modify the corresponding values in the script to match your Anki setup.
+
 Usage
 
-Run the script:
-python add_to_anki.py
+1. Run the script:
+   python add_to_anki.py
 
-Copy any Japanese word you want to add to Anki
-Press Ctrl+Shift+A
-The script will automatically:
+2. Copy any Japanese word you want to add to Anki
+3. Press Ctrl+Shift+A
+4. The script will automatically:
 
-Fetch the word's data from Jisho.org
-Create a new card in your specified deck
-Add the word, reading, and meaning to the card
-
-
+    Fetch the word's data from Jisho.org
+    Create a new card in your specified deck
+    Add the word, reading, and meaning to the card
 
 Example
 
@@ -107,3 +105,4 @@ Created with assistance from Claude AI
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+ 
